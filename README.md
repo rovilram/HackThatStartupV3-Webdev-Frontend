@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+(https://nuwe3-front.herokuapp.com/)
+# HACK THAT STARTUP V3 | FRONT-END VERSION
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Te proponemos ahora lo siguiente:
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Unit Testing
 
-### `npm start`
+Para poder revisar que las funciones creadas funcionan complemente, implementa algún test unitario para revisar que realmente está funcionando.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Algunas librerias utilizadas por empresas para implementar tests:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Jest](https://github.com/facebook/jest)
+- [Mocha](https://github.com/mochajs/mocha)
+- [Supertest]()
+- [react-testing-library]()
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Repository search
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Mientras el equipo de desarrollo implementa una API para poder cargar datos de usuarios, gestionar logins y registers, el euipo de front va a tener que implementar las vistas que les permita gestionar y enviar los datos de usuarios
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Obejtivos**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Crear un proyecto basado en ReactJS utilizando los estilos que más os gusten 
+- Cread una vista desde dónde el usuario pueda introducir su nombre de github y se le muestren sus respositorios en formato grid.
+- Cread una card para mostrar el avatar, el nombre usuario y el número de repositorios que tiene en github.
+- Utilizad la API de github para poder hacer fetch de los datos de un usarios 
 
-### `npm run eject`
+## LOGIN/REGISTER DESIGN
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Es hora de poner una barrera de entrada a la vista que ya tenemos preparada, vamos ahora hacer la vista de login y hacer deploy de nuestra aplicación 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**Obejtivos**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Hacer que esas vistas sean lo más responsive posibles y puedan ser visibiles desde PC y móvil
+- Crear las vistas de Login y Register y que redirijan a la vista que hemos hecho anteriormente
+-Finalmente, haced deploy del proyecto dónde mejor os pareza, algunos ejemplo:
+    - Vercel
+    - Github pages
+    - Netlify
+    - Digital Ocen
 
-## Learn More
+- Documentar el proyecto 
+- Refactor del código
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Evaluación del código
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Calidad de código (bugs, errores, duplicados, etc)
+- Objetivos cumplidos
+- Documentación proporcionada
+- Velocidad de dessarrollo
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## INSTALACIÓN
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clonar repositorio: `git clone https://github.com/rovilram/HackThatStartupV3-Webdev-Frontend`.
+2. reconstituir dependencias npm: `npm install`.
+3. lanzar react: `npm start`.
+4. el usuario / contraseña para entrar en la aplicación es admin@admin.es / admin
+5. Se ha desplegado la aplicación react en heroku. (https://nuwe3-front.herokuapp.com/)
